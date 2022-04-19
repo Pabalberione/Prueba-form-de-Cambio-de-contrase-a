@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(30, 146, 240);
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    height:900px;
+    line-height: 120%;
+    place-items: center;/*Linea magica para centrar vertical y horizontalmente usando grid*/
+}
+
+.container{
+    
+    display: grid;
+    place-items: center;
+    width: 300px;
+    margin: 0 auto;
+    height: 250px;
+    background-color: grey;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px;
+}
+
+#success{
+    display: grid;
+    display: none;
+    place-items: center;
+    background-color: beige;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+#error{
+    display: grid;
+    display: none;
+    place-items: center;
+    background-color: beige;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.containerbig{
+    width: 305px;
+    height: 400px;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  .form input{
+      border-radius: 10px;
+      padding-left: 3px;
+      border:none;
+  }
+
+  #lblvolver{
+    margin-top: 5px;
+  }
+
+  .mostrar{
+    display: inline-block;
+    place-items: center;
+    background-color: beige;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    height: 40px;
+      
+  }
+ 
