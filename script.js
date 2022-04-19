@@ -1,14 +1,4 @@
-/*function validarPass(){
-    
-    txtNewPass=document.getElementById('txtNewPass')
-    txtRepPass=document.getElementById('txtRepPass')
-    if(txtNewPass!=txtRepPass){
-    console.log('Las contraseñas no son iguales')
-    }
-    else{
-    console.log('Las contraseñas coinciden')
-}
-}*/
+
 const form=document.getElementById('formCambio');
 form.addEventListener('submit', function(event){
     event.preventDefault();
